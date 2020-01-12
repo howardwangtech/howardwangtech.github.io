@@ -1,0 +1,18 @@
+url: http://howardwangtech.github.io
+baseurl: ""
+
+# Site Settings
+title: Howard Wang
+description: "Howard Wang"
+keywords: "Howard Wang, Machine Learning, Computer Science, WashU, Rice, UT"
+collections:
+ blog:
+    name: blog
+    output: true
+ notes:
+    name: Notes
+    documentation: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+    output: true
+
+markdown: kramdown
+exclude: ["Rakefile", "LICENSE", "readme.markdown"]
